@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Laud page</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: flex-start;
+        background-color: rgb(27, 28, 29);
+      }
+      .navbar-nav {
+        text-decoration: none;
+        margin-left: 40px;
+      }
+      .nav-item {
+        margin: 5px;
+        padding: 5px;
+      }
+      .nav-link {
+        color: blanchedalmond;
+      }
+      .first {
+        width: 100%;
+
+        background-color: rgb(27, 28, 29);
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .second {
+        width: 100%;
+        position: relative;
+
+        background-color: white;
+        height: 800px;
+      }
+      .pic {
+        position: absolute;
+        right: 50px;
+        top: 130px;
+      }
+      .content1 {
+        position: absolute;
+        background-color: white;
+        top: 100px;
+        left: 100px;
+        border-style: none;
+        margin-bottom: 30px;
+      }
+      .card-text {
+        color: black;
+      }
+      .content2 {
+        position: absolute;
+        bottom: 150px;
+        left: 100px;
+        background-color: white;
+        border-style: none;
+      }
+      .buttons {
+        position: absolute;
+        bottom: 70px;
+        margin: auto;
+        left: 40%;
+      }
+      .buttons1 {
+        color: white;
+        margin-right: 2px;
+        padding: 3px 17px;
+      }
+      .third {
+        background-color: rgb(27, 28, 29);
+        height: 140px;
+        position: relative;
+      }
+      .quote {
+        position: absolute;
+        left: 300px;
+        top: 60px;
+      }
+      .fourth {
+        height: 800px;
+        background-color: white;
+        position: relative;
+      }
+      .fourth .award {
+        font-size: 30px;
+        position: absolute;
+        top: 70px;
+        left: 500px;
+      }
+      .boxs {
+        color: black;
+        border: 1px solid rgb(194, 192, 192);
+        border-radius: 5px;
+        margin-left: 20px;
+        padding: 8px;
+        height: 110px;
+        width: 220px;
+      }
+      .boxes {
+        position: absolute;
+        top: 200px;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .boxs .card-title {
+        font-size: 16px;
+        margin-bottom: 0;
+        padding: 5px;
+      }
+
+      .boxes .boxs {
+        padding: 5px;
+      }
+      .last {
+        height: 175px;
+        background-color: rgb(27, 28, 29);
+        position: relative;
+      }
+
+      .t1 {
+        font-size: 15px;
+        margin-bottom: 4px;
+        color: white;
+      }
+      .t2 {
+        font-size: 13px;
+        color: rgb(192, 192, 192);
+      }
+      .last1 {
+        border-right: 2px solid rgb(75, 75, 75);
+        flex-basis: 300px;
+      }
+      .last2 {
+        border-right: 2px solid rgb(75, 75, 75);
+        flex-basis: 200px;
+        text-align: left;
+      }
+      .last3 {
+        flex-basis: 400px;
+      }
+      .lists {
+        position: absolute;
+        left: 50px;
+        top: 200px;
+      }
+      .poetry {
+        font-size: 30px;
+        color: black;
+      }
+      .poems {
+        font-size: 30px;
+        color: black;
+      }
+      li {
+        font-size: 14px;
+        color: rgb(56, 55, 55);
+      }
+      .r1 {
+        position: relative;
+        margin: 0px 0px 60px 20px;
+        left: 40px;
+      }
+      .last .rows {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        position: relative;
+        top: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Achievements</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid jumbotron-fluid">
+      <div class="first col-lg-12 col-md-12 col-sm-12">
+        <div class="text1">
+          <div style="font-size: 50px; color: white; margin-bottom: 15px">
+            Kazi Nazrul Islam
+          </div>
+          <div style="font-size: 24px; color: white">
+            The national poet of Bangladesh
+          </div>
+        </div>
+      </div>
+      <div class="second col-lg-12 col-sm-12 col-md-12">
+        <div class="card pic" style="width: 300px; height: 150px">
+          <img
+            class="card-img-top"
+            src="kazi.jpeg"
+            alt="Card image"
+            style="width: 100%"
+          />
+        </div>
+        <div class="card col-lg-6 col-sm-6 col-md-6 content1">
+          <div class="card-body">
+            <h4 class="card-title">Rebel Poet</h4>
+            <p class="card-text">
+              Kazi Nazrul Islam is the national poet of Bangladesh who is espec
+              recognized as a Bidrohi Kobi(rebel poet) around the country.Nazrul
+              is a famous poet,musician and philosopher of Bangladesh.The famous
+              poet Nazrul's writings deal with the revolution of that period of
+              the British government.His revolutionary attempt helped him to be
+              a national poet of Bangladesh. he has raised his voice against any
+              kinds of facism and oppression and got popularity swiftly around
+              the Indian Subcontinent
+            </p>
+          </div>
+        </div>
+        <div class="card col-lg-6 col-sm-6 col-md-6 content2">
+          <div class="card-body">
+            <h4 class="card-title">Awesome Writer</h4>
+            <p class="card-text">
+              Nazrul's writings explored themes such as love freedom,humanity,
+              and revolution.He opposed all forms of bigotry and fundamentalism,
+              including religious,caste-based and gender-based .Throughoht his
+              carrer,Nazrul wrote short stories,novels,and essays but is best
+              known for his songs and poems.He pioneered new music forms such as
+              Bengali ghazals.Nazrul wrote and composed music for nearly 4,000
+              songs(many recorded on HMV and gramophone records),collecttively
+              known as nazrul geeti.
+            </p>
+          </div>
+        </div>
+        <div class="buttons">
+          <button
+            type="button"
+            class="btn buttons1"
+            style="
+              background-color: rgb(213, 214, 216);
+              color: rgba(63, 63, 63, 0.52);
+            "
+          >
+            <i
+              class="fa fa-wikipedia-w"
+              aria-hidden="true"
+              style="padding: 8px"
+            ></i
+            >Learn More
+          </button>
+          <button
+            type="button"
+            class="btn buttons1"
+            style="background-color: rgb(220, 59, 43)"
+          >
+            <i
+              class="fa fa-youtube-play"
+              aria-hidden="true"
+              style="padding: 8px"
+            ></i
+            >Videos
+          </button>
+          <button
+            type="button"
+            class="btn buttons1"
+            style="background-color: rgb(231, 112, 42)"
+          >
+            <i class="fa fa-amazon" aria-hidden="true" style="padding: 8px"></i
+            >Books
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 third">
+        <div
+          class="quote"
+          style="font-size: 25px; color: white; margin-bottom: 15px"
+        >
+          "Love has no meaning or amount."-Kazi Nazrul
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 fourth">
+        <div class="award">
+          <i
+            class="fa fa-star"
+            aria-hidden="true"
+            style="margin-right: 5px"
+          ></i>
+          Awards
+        </div>
+        <div class="boxes container">
+          <div class="row">
+            <div class="boxs">
+              <div class="card-title">Jaggatarini gold medal</div>
+              <div
+                style="
+                  font-size: 13px;
+                  font-weight: lighter;
+                  color: rgb(134, 134, 134);
+                  margin-bottom: 4px;
+                  padding-left: 5px;
+                "
+              >
+                1945
+              </div>
+              <div
+                style="
+                  font-size: 12px;
+                  font-weight: lighter;
+                  color: rgba(42, 42, 42, 0.897);
+                  padding: 1px 2px 10px 5px;
+                "
+              >
+                From the university of calcutta for his<br />
+                work in Bengali Literature
+              </div>
+            </div>
+            <div class="boxs">
+              <div class="card-title">Padma Bhushan</div>
+              <div
+                style="
+                  font-size: 13px;
+                  font-weight: lighter;
+                  color: rgb(134, 134, 134);
+                  padding-left: 5px;
+                "
+              >
+                1960
+              </div>
+              <div
+                style="
+                  font-size: 12px;
+                  font-weight: lighter;
+                  color: rgba(42, 42, 42, 0.897);
+                  padding: 1px 2px 10px 5px;
+                "
+              >
+                One of the highest civilian honors of <br />the Republic of
+                India
+              </div>
+            </div>
+            <div class="boxs">
+              <div class="card-title">National Poet</div>
+              <div
+                style="
+                  font-size: 13px;
+                  font-weight: lighter;
+                  color: rgb(134, 134, 134);
+                  padding-left: 5px;
+                "
+              >
+                -
+              </div>
+              <div
+                style="
+                  font-size: 12px;
+                  font-weight: lighter;
+                  color: rgba(42, 42, 42, 0.897);
+                  padding: 1px 2px 10px 5px;
+                "
+              >
+                Conferred the title by Government <br />of Bangladesh
+              </div>
+            </div>
+            <div class="boxs">
+              <div class="card-title" style="margin-right: 30px">
+                Ekushey Padak
+              </div>
+              <div
+                style="
+                  font-size: 13px;
+                  font-weight: lighter;
+                  color: rgb(134, 134, 134);
+                  padding-left: 5px;
+                "
+              >
+                1976
+              </div>
+              <div
+                style="
+                  font-size: 12px;
+                  font-weight: lighter;
+                  color: rgba(42, 42, 42, 0.897);
+                  padding: 1px 0px 10px 5px;
+                "
+              >
+                Bangladesh highest civilian honor's
+              </div>
+            </div>
+          </div>
+          <div class="container lists">
+            <div class="row r1">
+              <div class="poetry col-lg-6 col-sm-6 col-md-6">Poetry</div>
+              <div class="poems col-lg-6 col-sm-6 col-md-6">
+                Poems and Songs
+              </div>
+            </div>
+            <div class="row r2">
+              <ul class="col-lg-6 col-sm-6 col-md-6 lists1">
+                <li>Agni Bina (The Fiery Lute), 1922</li>
+                <li>Sanchita (Collected poems), 1925</li>
+                <li>Phanimanasa (The Cactus), 1927</li>
+                <li>Chakrabak (The Flamingo), 1929</li>
+                <li>
+                  Satbhai Champa (The Seven Brothers of Champa), juvenile poems,
+                  1933
+                </li>
+                <li>Nirjhar (Fountain), 1939</li>
+                <li>Natun Chand (The New Moon), 1939</li>
+                <li>Morubhaskar (The Sun in the Desert), 1951</li>
+                <li>Sanchayan (Collected Poems), 1955</li>
+                <li>
+                  Nazrul Islam: Islami Kobita (A Collection of Islamic Poems;
+                  Dhaka, Bangladesh: Islamic Foundation, 1982)
+                </li>
+              </ul>
+              <ul class="col-lg-6 col-sm-6 col-md-6 lists2">
+                <li>
+                  Dolan Chapa (name of a faintly fragrant monsoon flower), 1923
+                </li>
+                <li>Bisher Bashi (The Poison Flute), 1924</li>
+                <li>
+                  Bhangar Gan (The Song of Destruction), 1924 proscribe in 1924
+                </li>
+                <li>Chhayanat (The Raga of Chhayanat), 1925</li>
+                <li>Chittanama (On Chittaranjan), 1925</li>
+                <li>Samyabadi (The Proclaimer of Equality), 1926</li>
+                <li>Puber Hawa (The Eastern Wind), 1926</li>
+                <li>Sarbahara (The Proletariat), 1926</li>
+                <li>Sindhu Hindol (The Undulation of the Sea), 1927</li>
+                <li>Jinjir (Chain), 1928</li>
+                <li>
+                  Pralaya Shikha (Doomsday Flame), 1930 proscribed in 1930
+                </li>
+                <li>Shesh Saogat (The Last Offerings), 1958</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="last col-lg-12 col-md-12 col-sm-12">
+        <div class="row rows">
+          <div class="last1">
+            <div class="t1">About the author</div>
+            <div class="t2" style="padding-right: 30px">
+              Made by
+              <span style="color: rgb(129, 129, 129)">Satya Narayana</span>
+              <br /><br /><br />
+            </div>
+          </div>
+          <div class="last2">
+            <div class="t1">Techs Used</div>
+            <div class="t2" style="padding-right: 60px">
+              Bootstrap CSS <br /><br /><br />
+            </div>
+          </div>
+          <div class="last3">
+            <div class="t1">Content Disclaimer</div>
+            <div class="t2">
+              The content of this website is mostly copied from
+              <span style="color: rgb(85, 85, 180)"
+                >Wikipedia,<br />BiographyBD</span
+              >.Orginal credits goes to respective authors.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
